@@ -4,8 +4,8 @@ import { makeStyles } from "@material-ui/core/styles";
 
 import homePageStyles from "../../../../assets/jss/homePageStyles";
 import desing from "../../../../assets/img/design.png";
-import products from "../../../../assets/img/products.jpg";
-import prototype from "../../../../assets/img/prototype.jpg";
+import products from "../../../../assets/img/products.png";
+import prototype from "../../../../assets/img/prototype.png";
 import rdservice from "../../../../assets/img/r&dservice.jpeg";
 const useStyles = makeStyles(homePageStyles);
 
@@ -35,26 +35,34 @@ export default function Main() {
         <Grid
           container
           style={{
-            background: "rgba(0, 0, 0 , 0.2)",
-            display: "inline-flex",
+            background: "rgba(0, 0, 0 , 0.05)",
+            display: "flex",
             borderRadius: "4px",
+            margin: "2vw",
+            paddingBottom: "2vw",
+            maxWidth: "fit-content",
           }}
         >
-          <Grid container justify="center">
+          <Grid container justify="space-around" direction="row">
             <Grid item xs={12} style={{ textAlign: "center" }}>
               <h1>Our services</h1>
             </Grid>
-            <Grid item xs={3}>
-              <img src={desing} style={{ maxWidth: "200px" }}></img>
+            <Grid item xs={12} md={2} className={classes.services}>
+              Design
+              <img src={desing} className={classes.servicesImage}></img>
             </Grid>
-            <Grid item xs={3}>
-              <img src={rdservice} style={{ maxWidth: "200px" }}></img>
+            <Grid item xs={12} md={2} className={classes.services}>
+              Research &amp; Development
+              <img src={rdservice} className={classes.servicesImage}></img>
             </Grid>
-            <Grid item xs={3}>
-              <img src={prototype} style={{ maxWidth: "200px" }}></img>
+            <Grid item xs={12} md={2} className={classes.services}>
+              Prototype Manufacture
+              <img src={prototype} className={classes.servicesImage}></img>
             </Grid>
-            <Grid item xs={3}>
-              <img src={products} style={{ maxWidth: "200px" }}></img>
+
+            <Grid item xs={12} md={2} className={classes.services}>
+              Products
+              <img src={products} className={classes.servicesImage}></img>
             </Grid>
           </Grid>
         </Grid>

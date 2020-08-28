@@ -2,9 +2,9 @@ import { container } from "./material-kit-react";
 
 const navBarStyles = {
   container: {
-    "@media (min-width: 400px)": {
-      maxWidth: "90%",
-    },
+    // "@media (min-width: 400px)": {
+    //   maxWidth: "90%",
+    // },
     // "@media (min-width: 576px)": {
     //   maxWidth: "440px",
     // },
@@ -30,9 +30,9 @@ const navBarStyles = {
     ...container,
   },
   headerContainer: {
-    "@media (min-width: 400px)": {
-      maxWidth: "90%",
-    },
+    // "@media (min-width: 400px)": {
+    //   maxWidth: "90%",
+    // },
 
     zIndex: "12",
     color: "#FFFFFF",
@@ -93,8 +93,22 @@ const navBarStyles = {
     flexDirection: "row",
     "@media (max-width: 960px)": {
       flexDirection: "row",
-      alignContent: "flex-start",
     },
+  },
+  services: {
+    minWidth: "16vw",
+    background: "rgba(19, 111, 181, 0.64)",
+    borderRadius: "6px",
+    fontSize: "2vh",
+    textAlign: "center",
+    padding: "1vw",
+  },
+  servicesImage: {
+    maxWidth: "190px",
+    display: "inline",
+    borderRadius: "4px",
+
+    paddingTop: "3em",
   },
 };
 
