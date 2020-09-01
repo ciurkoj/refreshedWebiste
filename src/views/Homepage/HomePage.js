@@ -7,7 +7,7 @@ import { Container, Box, Grid } from "@material-ui/core";
 import LandingCard from "./Sections/LandingCard/LandingCard";
 import content from "../../assets/img/content.png";
 import Main from "./Sections/Main/Main";
-
+import Footer from "../../components/Footer/Footer";
 const useStyles = makeStyles(homePageStyles);
 
 const HomePage = () => {
@@ -24,7 +24,7 @@ const HomePage = () => {
       /> */}
       <LandingCard />
       <Main />
-      <Box
+      {/* <Box
         className={classes.container}
         style={{
           minHeight: "300em",
@@ -32,7 +32,8 @@ const HomePage = () => {
           marginRight: "auto",
           marginLeft: "auto",
         }}
-      ></Box>
+      ></Box> */}
+      <Footer />
     </Container>
   );
 };
