@@ -22,7 +22,7 @@ const HomePage = () => {
         filter
         image={require("../../assets/img/closeup-technology-motherboards-PCB-Retro-computers-electronics-26875-wallhere.com.jpg")}
       /> */}
-      {/* <LandingCard /> */}
+      <LandingCard />
       {/* <Main /> */}
       {/* <Box
         className={classes.container}

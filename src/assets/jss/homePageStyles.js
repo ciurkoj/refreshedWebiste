@@ -1,22 +1,8 @@
 import { container } from "./material-kit-react";
+import pcb from "../img/pcb.png";
 
 const navBarStyles = {
   container: {
-    // "@media (min-width: 400px)": {
-    //   maxWidth: "90%",
-    // },
-    // "@media (min-width: 576px)": {
-    //   maxWidth: "440px",
-    // },
-    // "@media (min-width: 768px)": {
-    //   maxWidth: "680px",
-    // },
-    // "@media (min-width: 992px)": {
-    //   maxWidth: "720px",
-    // },
-    // "@media (min-width: 1200px)": {
-    //   maxWidth: "1260px",
-    // },
     zIndex: "12",
     color: "#FFFFFF",
     marginTop: "1em",
@@ -197,6 +183,49 @@ const navBarStyles = {
     color: "inherit",
     display: "flex",
     alignItems: "center",
+  },
+
+  landingCard: {
+    display: "inline-flex",
+
+    "@media (min-width: 720px)": {
+      flexDirection: "column-reverse",
+    },
+    "@media (min-width: 960px)": {
+      flexDirection: "row",
+    },
+  },
+  landingCardBox: {
+    minHeight: "20em",
+    backgroundImage: "url(" + pcb + ")",
+    backgroundSize: "cover",
+    marginRight: "auto",
+    marginLeft: "auto",
+    marginBottom: "1rem",
+    zIndex: "12",
+    color: "#FFFFFF",
+    marginTop: "1em",
+    borderRadius: "6px",
+    boxShadow:
+      "0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)",
+    ...container,
+  },
+  landingCardClients: {
+    fontSize: "20pt",
+    font: "caption",
+    borderRadius: "6px",
+    background: "rgba(19, 111 ,181 , 0.64)",
+    boxShadow:
+      "0 16px 24px 2px rgba(0, 0, 0, 0.2), 0 6px 30px 5px rgba(0, 0, 0, 0.2), 0 8px 10px -5px rgba(0, 0, 0, 0.2)",
+    margin: "1em",
+    height: "auto",
+    maxHeight: "16em",
+    paddingLeft: "1em",
+    paddingRight: "1em",
+    marginTop: "3em",
+    "@media (max-width: 450px)": {
+      display: "none",
+    },
   },
 };
 
