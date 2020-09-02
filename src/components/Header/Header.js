@@ -1,12 +1,12 @@
 import React from "react";
-import { Grid, Toolbar, Button, AppBar } from "@material-ui/core";
+import { Grid, Toolbar, Button, AppBar, Link } from "@material-ui/core";
 import MailIcon from "@material-ui/icons/Mail";
 import PhoneIcon from "@material-ui/icons/Phone";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import { makeStyles } from "@material-ui/core/styles";
-import logo from "../../assets/img/lyra-electronics.jpg";
+import logo from "../../assets/img/lyra-electronics.png";
 import styles from "../../assets/jss/homePageStyles";
 const useStyles = makeStyles(styles);
 export default function NameCard() {
@@ -19,17 +19,17 @@ export default function NameCard() {
           alignItems="flex-start"
           alignContent="flex-start"
           justify="space-between"
-          className={classes.row}
+          //   className={classes.row}
         >
           <Grid
             container
             justify="space-between"
             alignItems="center"
-            style={{ flexWrap: "nowrap" }}
+            style={{ flexWrap: "wrap" }}
           >
             <Grid
               item
-              xs={6}
+              xs={12}
               sm={6}
               md={6}
               style={{
@@ -37,33 +37,29 @@ export default function NameCard() {
                 padding: "0",
               }}
             >
-              <img className={classes.image} alt="complex" src={logo} />
+              <img className={classes.logo} alt="complex" src={logo} />
             </Grid>
             <Grid
               container
-              style={{ color: "#3C4858", width: "auto", flexWrap: "nowrap" }}
+              className={classes.headerLinksSection}
               justify="flex-end"
               alignContent="flex-end"
               alignItems="center"
             >
-              <Grid item md={5} className={classes.links}>
-                <MailIcon />
-
-                <a
-                  style={{ textDecoration: "none" }}
-                  href="mailto:sales@lyraelectronics.com"
-                >
-                  sales@lyraelectronics.com
+              <Grid item md={4} className={classes.headerLinks}>
+                <a href="mailto:sales@lyraelectronics.com">
+                  <MailIcon />
+                  <p>sales@lyraelectronics.com</p>
                 </a>
               </Grid>
-              <Grid item xs={9} className={classes.links}>
-                <PhoneIcon />
-                <a href="tel:01216679832" style={{ textDecoration: "none" }}>
-                  0121 667 9832
+              <Grid item md={3} className={classes.headerLinks}>
+                <a href="tel:01216679832">
+                  <PhoneIcon />
+                  <p>0121 667 9832</p>
                 </a>
               </Grid>
 
-              <Grid item xs={2} className={classes.links}>
+              <Grid item xs={1} className={classes.headerLinks}>
                 <a
                   href="https://www.facebook.com/LyraElectronics"
                   target="_blank"
@@ -72,7 +68,7 @@ export default function NameCard() {
                   <FacebookIcon />
                 </a>
               </Grid>
-              <Grid item xs={2} className={classes.links}>
+              <Grid item xs={1} className={classes.headerLinks}>
                 <a
                   href="https://www.linkedin.com/company/lyra-electronics-limited"
                   target="_blank"
@@ -81,7 +77,7 @@ export default function NameCard() {
                   <LinkedInIcon />
                 </a>
               </Grid>
-              <Grid item xs={2} className={classes.links}>
+              <Grid item xs={1} className={classes.headerLinks}>
                 <a
                   href="https://twitter.com/LyraElectronics"
                   target="_blank"

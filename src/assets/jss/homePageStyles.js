@@ -30,9 +30,12 @@ const navBarStyles = {
     ...container,
   },
   headerContainer: {
-    // "@media (min-width: 400px)": {
-    //   maxWidth: "90%",
-    // },
+    maxWidth: "auto",
+    height: "10rem",
+    "@media (max-width: 400px)": {
+      maxWidth: "100vw",
+      height: "auto",
+    },
 
     zIndex: "12",
     color: "#FFFFFF",
@@ -46,11 +49,40 @@ const navBarStyles = {
       "0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)",
     ...container,
   },
-  links: {
+  headerLinksSection: {
+    color: "#3C4858",
+    width: "50%",
+    flexWrap: "nowrap",
+    "@media (max-width: 450px)": {
+      display: "none",
+    },
+  },
+  logo: {
+    textAlign: "start",
+    maxWidth: "20rem",
+    "@media(max-width:400px)": {
+      maxWidth: "90vw",
+    },
+    "@media(min-width:1100px)": {
+      maxWidth: "28rem",
+    },
+  },
+  headerLinks: {
     marginRight: "0.5em",
+
     display: "inline-flex",
     alignItems: "center",
     justifyContent: "flex-end",
+    "& p": {
+      "@media (max-width: 800px)": {
+        display: "none",
+      },
+    },
+    "& a": {
+      textDecoration: "none",
+
+      display: "contents",
+    },
   },
   subtitle: {
     fontSize: "1rem",
@@ -88,6 +120,7 @@ const navBarStyles = {
       width: "100%",
     },
   },
+
   row: {
     height: "100px",
     flexDirection: "row",
