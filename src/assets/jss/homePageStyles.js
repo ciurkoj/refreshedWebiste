@@ -96,7 +96,7 @@ const navBarStyles = {
     },
   },
   services: {
-    width: "50vw",
+    width: "50rem",
     // height: "25vh",
     justifyContent: "space-around",
     borderRadius: "6px",
@@ -109,7 +109,7 @@ const navBarStyles = {
     //background: "rgba(19, 111, 181, 0.05)",
   },
   image: {
-    width: "25vw",
+    width: "25rem",
     justifyContent: "center",
     // borderRadius: "6px",
     fontSize: "2vh",
@@ -118,8 +118,8 @@ const navBarStyles = {
     background: "rgba(19, 111, 181, 0.1)",
     // border: "5px solid ",
     // borderColor: "black",
-    outline: "0.2em solid white",
-    outlineOffset: "-0.6em",
+    outline: "4px solid white",
+    outlineOffset: "-10px",
   },
   description: {
     justifyContent: "center",
@@ -130,12 +130,40 @@ const navBarStyles = {
   },
   servicesImage: {
     // width: "100%",
-    maxHeight: "25vh",
+    maxHeight: "20rem",
     display: "inline",
     borderRadius: "4px",
     // paddingTop: "3em",
     // background: "rgba(19, 111, 181, 0.1)",
     backgroundSize: "auto",
+  },
+  footer: {
+    zIndex: "12",
+    color: "#FFFFFF",
+    backgroundColor: "rgb(24 25 29)",
+    border: "50px",
+    boxShadow:
+      "0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)",
+    ...container,
+  },
+  servicesIcon: {
+    maxWidth: "4rem",
+    display: "flex",
+    margin: "auto",
+  },
+  footerIcons: {
+    width: "4rem",
+    height: "2rem",
+  },
+  links: {
+    textDecoration: "none",
+    color: "inherit",
+  },
+  contactLinks: {
+    textDecoration: "none",
+    color: "inherit",
+    display: "flex",
+    alignItems: "center",
   },
 };
 

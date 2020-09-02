@@ -26,10 +26,10 @@ export default function Main() {
             // background: "rgba(0, 0, 0 , 0.05)",
             display: "flex",
             borderRadius: "4px",
-            margin: "2vw",
-            paddingBottom: "2vw",
+            margin: "2rem",
+            paddingBottom: "2rem",
             maxWidth: "fit-content",
-            font: "100 2vh Arial",
+            font: "100 1.5rem Arial",
           }}
         >
           <Grid container justify="center" direction="row">
@@ -38,7 +38,7 @@ export default function Main() {
               xs={12}
               style={{
                 textAlign: "center",
-                font: "3vh Arial",
+                font: "2rem Arial",
                 fontWeight: "600",
               }}
             >
@@ -49,7 +49,7 @@ export default function Main() {
                   style={{
                     color: "rgba(81,88,106,1)",
                     //   fontFamily: "'Raleway', sans-serif",
-                    font: "100 2vh Arial ", //sans-serif",
+                    font: "100 1.5rem Arial ", //sans-serif",
                     textAlign: "justify",
                     paddingLeft: "4rem",
                     paddingRight: "4rem",
@@ -70,14 +70,7 @@ export default function Main() {
                 <img src={desing} className={classes.servicesImage}></img>
               </Grid>
               <Grid item md={6} className={classes.description}>
-                <img
-                  src={desingIcon}
-                  style={{
-                    maxWidth: "5vw",
-                    display: "flex",
-                    margin: "auto",
-                  }}
-                ></img>
+                <img src={desingIcon} className={classes.servicesIcon}></img>
                 <b>Design</b> <br />
                 Lyra offers a full consultancy service, either as a ‘one-off’
                 package or as a partner to your team.
@@ -85,14 +78,7 @@ export default function Main() {
             </Grid>
             <Grid item xs={12} md={12} className={classes.services}>
               <Grid item xs={12} md={6} className={classes.description}>
-                <img
-                  src={researchIcon}
-                  style={{
-                    maxWidth: "5vw",
-                    display: "flex",
-                    margin: "auto",
-                  }}
-                ></img>
+                <img src={researchIcon} className={classes.servicesIcon}></img>
                 <b>Research &amp; Development</b> <br />
                 Our goal is to push the boundaries of what has been achieved
                 before.
@@ -115,14 +101,7 @@ export default function Main() {
               </Grid>
 
               <Grid item xs={12} md={6} className={classes.description}>
-                <img
-                  src={prototypeIcon}
-                  style={{
-                    maxWidth: "5vw",
-                    display: "flex",
-                    margin: "auto",
-                  }}
-                ></img>
+                <img src={prototypeIcon} className={classes.servicesIcon}></img>
                 <b>Prototype Manufacture</b>
                 <br />
                 Lyra Electronics has a well-equipped prototype workshop, and the
@@ -131,14 +110,7 @@ export default function Main() {
             </Grid>
             <Grid item xs={12} md={12} className={classes.services}>
               <Grid item xs={12} md={6} className={classes.description}>
-                <img
-                  src={productIcon}
-                  style={{
-                    maxWidth: "5vw",
-                    display: "flex",
-                    margin: "auto",
-                  }}
-                ></img>
+                <img src={productIcon} className={classes.servicesIcon}></img>
                 <b>Products</b> <br />
                 Lyra's products can be purchased as described or can be
                 customised to a specific requirement.
