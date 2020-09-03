@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.js": "/refreshedWebiste/static/js/main.e1772dfa.chunk.js",
+    "main.js.map": "/refreshedWebiste/static/js/main.e1772dfa.chunk.js.map",
+    "runtime-main.js": "/refreshedWebiste/static/js/runtime-main.2e056e56.js",
+    "runtime-main.js.map": "/refreshedWebiste/static/js/runtime-main.2e056e56.js.map",
+    "static/js/2.34652963.chunk.js": "/refreshedWebiste/static/js/2.34652963.chunk.js",
+    "static/js/2.34652963.chunk.js.map": "/refreshedWebiste/static/js/2.34652963.chunk.js.map",
+    "index.html": "/refreshedWebiste/index.html",
+    "precache-manifest.37cc3f2310443eb01d87fd31d1e17291.js": "/refreshedWebiste/precache-manifest.37cc3f2310443eb01d87fd31d1e17291.js",
+    "service-worker.js": "/refreshedWebiste/service-worker.js",
+    "static/js/2.34652963.chunk.js.LICENSE.txt": "/refreshedWebiste/static/js/2.34652963.chunk.js.LICENSE.txt",
+    "static/media/content.png": "/refreshedWebiste/static/media/content.009922cc.png",
+    "static/media/design-icon.png": "/refreshedWebiste/static/media/design-icon.cff7e9cb.png",
+    "static/media/design.png": "/refreshedWebiste/static/media/design.05a002a4.png",
+    "static/media/lyra-electronics.png": "/refreshedWebiste/static/media/lyra-electronics.54159639.png",
+    "static/media/lyraWhiteLogo.png": "/refreshedWebiste/static/media/lyraWhiteLogo.465ce390.png",
+    "static/media/pcb.png": "/refreshedWebiste/static/media/pcb.cd8fdb9a.png",
+    "static/media/product-icon.png": "/refreshedWebiste/static/media/product-icon.0478da71.png",
+    "static/media/products.png": "/refreshedWebiste/static/media/products.eec7f364.png",
+    "static/media/prototype-icon.svg": "/refreshedWebiste/static/media/prototype-icon.7df01eea.svg",
+    "static/media/prototype.png": "/refreshedWebiste/static/media/prototype.3c40a204.png",
+    "static/media/r&dservice.jpeg": "/refreshedWebiste/static/media/r&dservice.10377fdd.jpeg",
+    "static/media/research-icon.png": "/refreshedWebiste/static/media/research-icon.03b2c340.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e056e56.js",
+    "static/js/2.34652963.chunk.js",
+    "static/js/main.e1772dfa.chunk.js"
+  ]
+}
