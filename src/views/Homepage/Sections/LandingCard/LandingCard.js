@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Grid } from "@material-ui/core";
+import { Box, Grid, Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import homePageStyles from "../../../../assets/jss/homePageStyles";
 const useStyles = makeStyles(homePageStyles);
@@ -8,7 +8,7 @@ const LandingCard = () => {
   const classes = useStyles();
   return (
     <div>
-      <Box className={classes.landingCardBox}>
+      <Container className={classes.landingCardBox}>
         <Grid container className={classes.landingCard} justify="space-between">
           <Grid
             item
@@ -64,7 +64,7 @@ const LandingCard = () => {
             </Grid>
           </Grid>
         </Grid>
-      </Box>
+      </Container>
     </div>
   );
 };

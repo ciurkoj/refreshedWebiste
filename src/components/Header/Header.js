@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Toolbar, Button, AppBar, Link } from "@material-ui/core";
+import { Grid, Toolbar, Button, AppBar, Container } from "@material-ui/core";
 import MailIcon from "@material-ui/icons/Mail";
 import PhoneIcon from "@material-ui/icons/Phone";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
@@ -13,7 +13,7 @@ export default function NameCard() {
   const classes = useStyles();
   return (
     <div>
-      <div className={classes.headerContainer}>
+      <Container className={classes.headerContainer}>
         <Grid
           container
           alignItems="flex-start"
@@ -124,7 +124,7 @@ export default function NameCard() {
             Innovate UK
           </Button>
         </Grid>
-      </div>
+      </Container>
     </div>
   );
 }

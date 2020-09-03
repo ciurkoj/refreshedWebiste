@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import { Box, Grid, Button } from "@material-ui/core";
+import React, { useRef, useEffect, useState } from "react";
+import { Box, Grid, Button, Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 import homePageStyles from "../../../../assets/jss/homePageStyles";
@@ -13,16 +13,34 @@ import prototype from "../../../../assets/img/prototype.png";
 import prototypeIcon from "../../../../assets/img/prototype-icon.svg";
 import rdservice from "../../../../assets/img/r&dservice.jpeg";
 import researchIcon from "../../../../assets/img/research-icon.png";
+import { yellow } from "@material-ui/core/colors";
 const useStyles = makeStyles(homePageStyles);
 
 export default function Main() {
   const classes = useStyles();
 
-  useEffect(() => console.log("mounted"), []);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
+  const inputRef = useRef();
+  const inputRef1 = useRef();
+
+  const handleResize = () => {
+    setWindowWidth(window.innerWidth);
+  };
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+    // window.addEventListener('resize',
+    if (windowWidth > 600) {
+      inputRef.current.style.order = 1;
+      inputRef1.current.style.order = 1;
+    } else if (windowWidth < 600) {
+      inputRef.current.style.order = 0;
+      inputRef1.current.style.order = 0;
+    }
+  }, [windowWidth]);
   return (
     <div>
-      <Box className={classes.container} style={{ color: "black" }}>
+      <Container className={classes.container} style={{ color: "black" }}>
         <Grid
           container
           style={{
@@ -39,7 +57,7 @@ export default function Main() {
           <Grid container justify="center" direction="row">
             <Grid item xs={12} className={classes.whatWeDoSection}>
               {/* <h2>What we do</h2> */}
-              What we do
+              <p>What we do</p>
               <Grid item md={12}>
                 <p
                   style={{
@@ -62,7 +80,13 @@ export default function Main() {
               </Grid>
             </Grid>
             <Grid item xs={12} md={12} className={classes.services} id={1}>
-              <Grid item sm={6} md={6} className={classes.description}>
+              <Grid
+                item
+                sm={6}
+                md={6}
+                ref={inputRef}
+                className={classes.description}
+              >
                 <img src={desingIcon} className={classes.servicesIcon}></img>
                 <b>Design</b> <br />
                 Lyra offers a full consultancy service, either as a ‘one-off’
@@ -92,7 +116,14 @@ export default function Main() {
               </Grid>
             </Grid>
             <Grid item xs={12} md={12} className={classes.services} id={3}>
-              <Grid item xs={12} sm={6} md={6} className={classes.description}>
+              <Grid
+                item
+                ref={inputRef1}
+                xs={12}
+                sm={6}
+                md={6}
+                className={classes.description}
+              >
                 <img src={prototypeIcon} className={classes.servicesIcon}></img>
                 <b>Prototype Manufacture</b>
                 <br />
@@ -116,7 +147,7 @@ export default function Main() {
             </Grid>
           </Grid>
         </Grid>
-      </Box>
+      </Container>
     </div>
   );
 }
