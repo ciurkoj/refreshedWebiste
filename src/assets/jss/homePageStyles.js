@@ -39,7 +39,7 @@ const navBarStyles = {
     color: "#3C4858",
     width: "50%",
     flexWrap: "nowrap",
-    "@media (max-width: 450px)": {
+    "@media (max-width: 500px)": {
       display: "none",
     },
   },

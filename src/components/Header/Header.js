@@ -29,7 +29,7 @@ export default function NameCard() {
           >
             <Grid
               item
-              xs={12}
+              xs={6}
               sm={6}
               md={6}
               style={{
