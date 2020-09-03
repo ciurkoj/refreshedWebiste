@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/refreshedWebiste/static/js/main.6e0119b8.chunk.js",
-    "main.js.map": "/refreshedWebiste/static/js/main.6e0119b8.chunk.js.map",
+    "main.js": "/refreshedWebiste/static/js/main.65579e96.chunk.js",
+    "main.js.map": "/refreshedWebiste/static/js/main.65579e96.chunk.js.map",
     "runtime-main.js": "/refreshedWebiste/static/js/runtime-main.2e056e56.js",
     "runtime-main.js.map": "/refreshedWebiste/static/js/runtime-main.2e056e56.js.map",
     "static/js/2.8306d781.chunk.js": "/refreshedWebiste/static/js/2.8306d781.chunk.js",
     "static/js/2.8306d781.chunk.js.map": "/refreshedWebiste/static/js/2.8306d781.chunk.js.map",
     "index.html": "/refreshedWebiste/index.html",
-    "precache-manifest.620c5dd1b2310d01886cefcac5e0028e.js": "/refreshedWebiste/precache-manifest.620c5dd1b2310d01886cefcac5e0028e.js",
+    "precache-manifest.3efdeac35336b66d17da3563214c2488.js": "/refreshedWebiste/precache-manifest.3efdeac35336b66d17da3563214c2488.js",
     "service-worker.js": "/refreshedWebiste/service-worker.js",
     "static/js/2.8306d781.chunk.js.LICENSE.txt": "/refreshedWebiste/static/js/2.8306d781.chunk.js.LICENSE.txt",
     "static/media/content.png": "/refreshedWebiste/static/media/content.009922cc.png",
@@ -26,6 +26,6 @@
   "entrypoints": [
     "static/js/runtime-main.2e056e56.js",
     "static/js/2.8306d781.chunk.js",
-    "static/js/main.6e0119b8.chunk.js"
+    "static/js/main.65579e96.chunk.js"
   ]
 }
