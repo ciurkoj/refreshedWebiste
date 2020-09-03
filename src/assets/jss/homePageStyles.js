@@ -66,7 +66,7 @@ const navBarStyles = {
     },
     "& a": {
       textDecoration: "none",
-
+      color: "inherit",
       display: "contents",
     },
   },
