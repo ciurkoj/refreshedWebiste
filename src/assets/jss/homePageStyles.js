@@ -155,6 +155,7 @@ const navBarStyles = {
   },
   servicesImage: {
     // width: "100%",
+    maxWidth: "-webkit-fill-available",
     maxHeight: "20rem",
     "@media (max-width: 960px)": {
       maxHeight: "15rem",
