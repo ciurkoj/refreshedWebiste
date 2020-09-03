@@ -98,13 +98,13 @@ const navBarStyles = {
   },
   image: {
     textAlign: "start",
-    maxWidth: "400px",
-    "@media (max-width: 960px) ": {
-      //   maxWidth: "200px",
-    },
-    "@media (max-width: 600px)": {
-      width: "100%",
-    },
+    // maxWidth: "400px",
+    // "@media (max-width: 960px) ": {
+    //   //   maxWidth: "200px",
+    // },
+    // "@media (max-width: 600px)": {
+    //   width: "100%",
+    // },
   },
 
   row: {
@@ -115,7 +115,7 @@ const navBarStyles = {
     },
   },
   services: {
-    width: "50rem",
+    //width: "50rem",
     // height: "25vh",
     justifyContent: "space-around",
     borderRadius: "6px",
@@ -124,11 +124,11 @@ const navBarStyles = {
     // padding: "1vw",
     // margin: "20px",
     display: "flex",
+    flexWrap: "wrap",
     alignItems: "center",
     //background: "rgba(19, 111, 181, 0.05)",
   },
   image: {
-    width: "25rem",
     justifyContent: "center",
     // borderRadius: "6px",
     fontSize: "2vh",
@@ -144,12 +144,21 @@ const navBarStyles = {
     justifyContent: "center",
     alignItems: "center",
     justifyItems: "center",
+
     paddingLeft: "8rem",
     paddingRight: "8rem",
+    "@media (max-width: 960px)": {
+      paddingLeft: "0",
+      paddingRight: "0",
+      font: "100 1.2rem Arial ",
+    },
   },
   servicesImage: {
     // width: "100%",
     maxHeight: "20rem",
+    "@media (max-width: 960px)": {
+      maxHeight: "15rem",
+    },
     display: "inline",
     borderRadius: "4px",
     // paddingTop: "3em",
@@ -225,6 +234,16 @@ const navBarStyles = {
     marginTop: "3em",
     "@media (max-width: 450px)": {
       display: "none",
+    },
+  },
+  whatWeDoSection: {
+    textAlign: "center",
+    font: "2rem Arial",
+    fontWeight: "600",
+    "& p": {
+      "@media (max-width: 450px)": {
+        display: "none",
+      },
     },
   },
 };

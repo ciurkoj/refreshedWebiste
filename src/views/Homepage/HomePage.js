@@ -14,7 +14,7 @@ const HomePage = () => {
   const classes = useStyles();
 
   return (
-    <Container>
+    <div>
       <NavBar className={classes.NavBar} />
       <Header />
       {/* <Parallax
@@ -23,7 +23,7 @@ const HomePage = () => {
         image={require("../../assets/img/closeup-technology-motherboards-PCB-Retro-computers-electronics-26875-wallhere.com.jpg")}
       /> */}
       <LandingCard />
-      {/* <Main /> */}
+      <Main />
       {/* <Box
         className={classes.container}
         style={{
@@ -34,7 +34,7 @@ const HomePage = () => {
         }}
       ></Box> */}
       <Footer />
-    </Container>
+    </div>
   );
 };
 
