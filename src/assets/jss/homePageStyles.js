@@ -1,5 +1,5 @@
 import { container } from "./material-kit-react";
-import pcb from "../img/pcb.png";
+import pcb from "../img/pcb1.jpg";
 
 const navBarStyles = {
   container: {
@@ -122,7 +122,7 @@ const navBarStyles = {
     //font: "400 2vh Arial",
     textAlign: "center",
     // padding: "1vw",
-    // margin: "20px",
+    marginBottom: "2rem",
     display: "flex",
     flexWrap: "wrap",
     alignItems: "center",
@@ -139,6 +139,7 @@ const navBarStyles = {
     // borderColor: "black",
     outline: "4px solid white",
     outlineOffset: "-10px",
+    width: "100%",
   },
   description: {
     justifyContent: "center",
@@ -154,11 +155,9 @@ const navBarStyles = {
     },
   },
   servicesImage: {
-    // width: "100%",
-    maxWidth: "-webkit-fill-available",
-    maxHeight: "20rem",
+    maxHeight: "   16rem",
     "@media (max-width: 960px)": {
-      maxHeight: "15rem",
+      maxHeight: "10rem",
     },
     display: "inline",
     borderRadius: "4px",
@@ -198,7 +197,7 @@ const navBarStyles = {
   landingCard: {
     display: "inline-flex",
 
-    "@media (min-width: 720px)": {
+    "@media (min-width: 520px)": {
       flexDirection: "column-reverse",
     },
     "@media (min-width: 960px)": {
@@ -233,7 +232,7 @@ const navBarStyles = {
     paddingLeft: "1em",
     paddingRight: "1em",
     marginTop: "3em",
-    "@media (max-width: 450px)": {
+    "@media (max-width: 520px)": {
       display: "none",
     },
   },
@@ -245,6 +244,18 @@ const navBarStyles = {
       "@media (max-width: 450px)": {
         display: "none",
       },
+    },
+  },
+  whatWeDoDescription: {
+    color: "rgba(81,88,106,1)",
+    //   fontFamily: "'Raleway', sans-serif",
+    font: "100 1.5rem Arial ", //sans-serif",
+    textAlign: "justify",
+    paddingLeft: "4rem",
+    paddingRight: "4rem",
+    "@media (max-width: 960px)": {
+      paddingLeft: "1rem",
+      paddingRight: "1rem",
     },
   },
 };

@@ -59,16 +59,7 @@ export default function Main() {
               {/* <h2>What we do</h2> */}
               <p>What we do</p>
               <Grid item md={12}>
-                <p
-                  style={{
-                    color: "rgba(81,88,106,1)",
-                    //   fontFamily: "'Raleway', sans-serif",
-                    font: "100 1.5rem Arial ", //sans-serif",
-                    textAlign: "justify",
-                    paddingLeft: "4rem",
-                    paddingRight: "4rem",
-                  }}
-                >
+                <p className={classes.whatWeDoDescription}>
                   We develop performance-enhancing and energy-saving power
                   electronics for ‘green’ industrial applications. Our breadth
                   of expertise covers high performance automotive to green
