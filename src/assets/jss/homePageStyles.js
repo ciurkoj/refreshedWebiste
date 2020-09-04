@@ -1,6 +1,6 @@
 import { container } from "./material-kit-react";
 import pcb from "../img/pcb1.jpg";
-
+import pcbM from "../img/pcbm.jpg";
 const navBarStyles = {
   container: {
     zIndex: "12",
@@ -95,16 +95,6 @@ const navBarStyles = {
     top: "0px",
     zIndex: "-1",
     width: "100%",
-  },
-  image: {
-    textAlign: "start",
-    // maxWidth: "400px",
-    // "@media (max-width: 960px) ": {
-    //   //   maxWidth: "200px",
-    // },
-    // "@media (max-width: 600px)": {
-    //   width: "100%",
-    // },
   },
 
   row: {
@@ -207,6 +197,9 @@ const navBarStyles = {
   landingCardBox: {
     minHeight: "20em",
     backgroundImage: "url(" + pcb + ")",
+    "@media (max-width: 570px)": {
+      backgroundImage: "url(" + pcbM + ")",
+    },
     backgroundSize: "cover",
     marginRight: "auto",
     marginLeft: "auto",

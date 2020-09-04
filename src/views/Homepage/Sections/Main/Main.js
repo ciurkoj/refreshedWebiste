@@ -1,19 +1,18 @@
 import React, { useRef, useEffect, useState } from "react";
-import { Box, Grid, Button, Container } from "@material-ui/core";
+import { Grid, Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 import homePageStyles from "../../../../assets/jss/homePageStyles";
-import desingIcon from "../../../../assets/img/design-icon.png";
+import desingIcon from "../../../../assets/img/design-icon.jpg";
 import desing from "../../../../assets/img/design.png";
 
-import products from "../../../../assets/img/products.png";
-import productIcon from "../../../../assets/img/product-icon.png";
+import products from "../../../../assets/img/products.jpg";
+import productIcon from "../../../../assets/img/product-icon.jpg";
 
-import prototype from "../../../../assets/img/prototype.png";
+import prototype from "../../../../assets/img/prototype.jpg";
 import prototypeIcon from "../../../../assets/img/prototype-icon.svg";
 import rdservice from "../../../../assets/img/r&dservice.jpeg";
-import researchIcon from "../../../../assets/img/research-icon.png";
-import { yellow } from "@material-ui/core/colors";
+import researchIcon from "../../../../assets/img/research-icon.jpg";
 const useStyles = makeStyles(homePageStyles);
 
 export default function Main() {
@@ -78,24 +77,37 @@ export default function Main() {
                 ref={inputRef}
                 className={classes.description}
               >
-                <img src={desingIcon} className={classes.servicesIcon}></img>
+                <img
+                  alt="design-icon"
+                  src={desingIcon}
+                  className={classes.servicesIcon}
+                ></img>
                 <b>Design</b> <br />
                 Lyra offers a full consultancy service, either as a ‘one-off’
                 package or as a partner to your team.
               </Grid>
               <Grid item xs={12} sm={6} md={6} className={classes.image}>
-                <img src={desing} className={classes.servicesImage}></img>
+                <img
+                  alt="design"
+                  src={desing}
+                  className={classes.servicesImage}
+                ></img>
               </Grid>
             </Grid>
             <Grid item xs={12} md={12} className={classes.services} id={2}>
               <Grid item sm={6} md={6} className={classes.description}>
-                <img src={researchIcon} className={classes.servicesIcon}></img>
+                <img
+                  alt="researchIcon"
+                  src={researchIcon}
+                  className={classes.servicesIcon}
+                ></img>
                 <b>Research &amp; Development</b> <br />
                 Our goal is to push the boundaries of what has been achieved
                 before.
               </Grid>
               <Grid item sm={6} md={6} className={classes.image}>
                 <img
+                  alt="rdservice"
                   src={rdservice}
                   className={classes.servicesImage}
                   style={{
@@ -115,25 +127,41 @@ export default function Main() {
                 md={6}
                 className={classes.description}
               >
-                <img src={prototypeIcon} className={classes.servicesIcon}></img>
+                <img
+                  alt="prototypeIcon"
+                  src={prototypeIcon}
+                  className={classes.servicesIcon}
+                ></img>
                 <b>Prototype Manufacture</b>
                 <br />
                 Lyra Electronics has a well-equipped prototype workshop, and the
                 experienced staff to create your prototypes
               </Grid>{" "}
               <Grid item sm={6} md={6} className={classes.image}>
-                <img src={prototype} className={classes.servicesImage}></img>
+                <img
+                  alt="prototype"
+                  src={prototype}
+                  className={classes.servicesImage}
+                ></img>
               </Grid>
             </Grid>
             <Grid item xs={12} md={12} className={classes.services} id={4}>
               <Grid item xs={12} sm={6} md={6} className={classes.description}>
-                <img src={productIcon} className={classes.servicesIcon}></img>
+                <img
+                  alt="productIcon"
+                  src={productIcon}
+                  className={classes.servicesIcon}
+                ></img>
                 <b>Products</b> <br />
                 Lyra's products can be purchased as described or can be
                 customised to a specific requirement.
               </Grid>
               <Grid item sm={6} md={6} className={classes.image}>
-                <img src={products} className={classes.servicesImage}></img>
+                <img
+                  alt="products"
+                  src={products}
+                  className={classes.servicesImage}
+                ></img>
               </Grid>
             </Grid>
           </Grid>

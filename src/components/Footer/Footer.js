@@ -1,7 +1,6 @@
 import React from "react";
-import { Container, Box, Grid, Button } from "@material-ui/core";
+import { Container, Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import { TableFooter } from "@material-ui/core";
 import MailIcon from "@material-ui/icons/Mail";
 import PhoneIcon from "@material-ui/icons/Phone";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
@@ -29,7 +28,11 @@ export default function Footer() {
       >
         <Grid container justify="space-around" style={{ marginTop: "2em" }}>
           <Grid item xs={8} sm={4} style={{ paddingBottom: "1em" }}>
-            <img src={whiteLogo} style={{ width: "15rem" }}></img>
+            <img
+              alt="lyra-logo"
+              src={whiteLogo}
+              style={{ width: "15rem" }}
+            ></img>
             <br />
             <Typography
               variant="h6"
