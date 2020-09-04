@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.js": "/refreshedWebiste/static/js/main.65579e96.chunk.js",
-    "main.js.map": "/refreshedWebiste/static/js/main.65579e96.chunk.js.map",
+    "main.js": "/refreshedWebiste/static/js/main.9f7e0674.chunk.js",
+    "main.js.map": "/refreshedWebiste/static/js/main.9f7e0674.chunk.js.map",
     "runtime-main.js": "/refreshedWebiste/static/js/runtime-main.2e056e56.js",
     "runtime-main.js.map": "/refreshedWebiste/static/js/runtime-main.2e056e56.js.map",
-    "static/js/2.8306d781.chunk.js": "/refreshedWebiste/static/js/2.8306d781.chunk.js",
-    "static/js/2.8306d781.chunk.js.map": "/refreshedWebiste/static/js/2.8306d781.chunk.js.map",
+    "static/js/2.9bb80b4d.chunk.js": "/refreshedWebiste/static/js/2.9bb80b4d.chunk.js",
+    "static/js/2.9bb80b4d.chunk.js.map": "/refreshedWebiste/static/js/2.9bb80b4d.chunk.js.map",
     "index.html": "/refreshedWebiste/index.html",
-    "precache-manifest.3efdeac35336b66d17da3563214c2488.js": "/refreshedWebiste/precache-manifest.3efdeac35336b66d17da3563214c2488.js",
+    "precache-manifest.a91831e974da6d49ed61c88fd928daf9.js": "/refreshedWebiste/precache-manifest.a91831e974da6d49ed61c88fd928daf9.js",
     "service-worker.js": "/refreshedWebiste/service-worker.js",
-    "static/js/2.8306d781.chunk.js.LICENSE.txt": "/refreshedWebiste/static/js/2.8306d781.chunk.js.LICENSE.txt",
-    "static/media/content.png": "/refreshedWebiste/static/media/content.009922cc.png",
-    "static/media/design-icon.png": "/refreshedWebiste/static/media/design-icon.cff7e9cb.png",
+    "static/js/2.9bb80b4d.chunk.js.LICENSE.txt": "/refreshedWebiste/static/js/2.9bb80b4d.chunk.js.LICENSE.txt",
+    "static/media/design-icon.jpg": "/refreshedWebiste/static/media/design-icon.16d55ad7.jpg",
     "static/media/design.png": "/refreshedWebiste/static/media/design.05a002a4.png",
     "static/media/lyra-electronics.png": "/refreshedWebiste/static/media/lyra-electronics.54159639.png",
     "static/media/lyraWhiteLogo.png": "/refreshedWebiste/static/media/lyraWhiteLogo.465ce390.png",
     "static/media/pcb1.jpg": "/refreshedWebiste/static/media/pcb1.c081bc46.jpg",
-    "static/media/product-icon.png": "/refreshedWebiste/static/media/product-icon.0478da71.png",
-    "static/media/products.png": "/refreshedWebiste/static/media/products.eec7f364.png",
+    "static/media/pcbm.jpg": "/refreshedWebiste/static/media/pcbm.c2cc04d5.jpg",
+    "static/media/product-icon.jpg": "/refreshedWebiste/static/media/product-icon.65301a46.jpg",
+    "static/media/products.jpg": "/refreshedWebiste/static/media/products.2c9a9ab4.jpg",
     "static/media/prototype-icon.svg": "/refreshedWebiste/static/media/prototype-icon.7df01eea.svg",
-    "static/media/prototype.png": "/refreshedWebiste/static/media/prototype.3c40a204.png",
+    "static/media/prototype.jpg": "/refreshedWebiste/static/media/prototype.bb05e338.jpg",
     "static/media/r&dservice.jpeg": "/refreshedWebiste/static/media/r&dservice.10377fdd.jpeg",
     "static/media/research-icon.png": "/refreshedWebiste/static/media/research-icon.03b2c340.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2e056e56.js",
-    "static/js/2.8306d781.chunk.js",
-    "static/js/main.65579e96.chunk.js"
+    "static/js/2.9bb80b4d.chunk.js",
+    "static/js/main.9f7e0674.chunk.js"
   ]
 }
