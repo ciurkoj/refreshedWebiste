@@ -196,9 +196,9 @@ const navBarStyles = {
   },
   landingCardBox: {
     minHeight: "20em",
-    backgroundImage: "url(" + pcb + ")",
+    backgroundImage: `url(${pcb})`,
     "@media (max-width: 570px)": {
-      backgroundImage: "url(" + pcbM + ")",
+      backgroundImage: `url(${pcbM} )`,
     },
     backgroundSize: "cover",
     marginRight: "auto",

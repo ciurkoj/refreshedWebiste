@@ -31,6 +31,7 @@ export default function Main() {
     // window.addEventListener('resize',
     if (windowWidth > 600) {
       inputRef.current.style.order = 1;
+
       inputRef1.current.style.order = 1;
     } else if (windowWidth < 600) {
       inputRef.current.style.order = 0;
